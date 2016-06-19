@@ -3,7 +3,7 @@
 
 Vagrant.configure(2) do |config|
 
-  # Create machines running CentOS 7.1
+  # Create machines running CentOS7.1
   config.vm.box = "bento/centos-7.1" 
 
   # Run by all machines created below
